@@ -1,0 +1,76 @@
+body{
+    background-color: #9daaff;
+}
+
+#container{
+    font-family: 'Oswald', sans-serif;
+    background-color: #9daaff;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo{
+    background-color: #5253ff;
+    text-align: center;
+    padding: 1.5%;
+    font-size: 35px;
+    font-weight: 900;
+}
+
+#menu{
+    padding: 1%;
+}
+
+.menuButton{
+    background-color: #281fff;
+    color: white;
+    padding: 2%;
+    text-align: center;
+    width: 12.6%;
+    float: left;
+}
+
+.menuButton:hover{
+    background-color: rgba(41,39,255,0.9);
+    cursor: pointer;
+}
+
+#content{
+    padding: 0.5%;
+    min-height: 70%;
+}
+
+.menuButtonS{
+    background-color: #281fff;
+    color: white;
+    padding: 6%;
+    border-bottom: white dotted 3px;
+}
+
+.menuButtonS:hover{
+    background-color: rgba(41,39,255,0.9);
+    cursor: pointer;
+}
+
+#sidebar{
+    background-color: #281fff;
+    float: left;
+    min-width: 10%;
+    text-align: center;
+    height: 100%;
+}
+
+#text{
+    float: left;
+    max-width: 80%;
+    padding: 1%;
+}
+
+#footer{
+    background-color: #5253ff;
+    text-align: center;
+    color: white;
+    padding: 1%;
+}
